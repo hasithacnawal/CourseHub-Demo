@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Standard record page">cfcde032c37522109642f61ed4013160</macroponent>
+        <name>viewport_gph/initiallyCollapsed</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 13:03:16</sys_created_on>
+        <sys_id>d7cde032c37522109642f61ed4013173</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_client_script_d7cde032c37522109642f61ed4013173</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 13:03:16</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>70f3d5661b823110e84d2f8dee4bcb88</instance_id>
+        <instance_name>dev193691</instance_name>
+        <name>sys_ux_client_script_d7cde032c37522109642f61ed4013173</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Standard record page"&gt;cfcde032c37522109642f61ed4013160&lt;/macroponent&gt;&lt;name&gt;viewport_gph/initiallyCollapsed&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-01 13:03:16&lt;/sys_created_on&gt;&lt;sys_id&gt;d7cde032c37522109642f61ed4013173&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;viewport_gph/initiallyCollapsed&lt;/sys_name&gt;&lt;sys_package display_value="CourseHub" source="x_quo_coursehub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CourseHub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_d7cde032c37522109642f61ed4013173&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-01 13:03:16&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-986259948</payload_hash>
+        <record_name>viewport_gph/initiallyCollapsed</record_name>
+        <reverted_from/>
+        <source>4cb8bb6ec33122109642f61ed4013148</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 13:03:16</sys_created_on>
+        <sys_id>53cde032c37522109642f61ed4013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1972b96dbcc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 13:03:16</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>17cde0325f7522101473afbb433bac77</update_guid>
+        <update_guid_history>17cde0325f7522101473afbb433bac77:-986259948</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 16:15:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>49ef728d7d0d45c1ae98cd3eab181a51</sys_id>
+        <sys_metadata>d7cde032c37522109642f61ed4013173</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_d7cde032c37522109642f61ed4013173</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_d7cde032c37522109642f61ed4013173">53cde032c37522109642f61ed4013178</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 16:15:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
