@@ -2,7 +2,7 @@
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
     "table": "x_quo_coursehub_course",
-    "sysId": "4b6aa8f6c33522109642f61ed40131b2",
+    "sysId": "cdc86cb6c33522109642f61ed401314d",
     "query": "",
     "extraParams": "",
     "views": "",
@@ -12,6 +12,33 @@
         "inputTable": "x_quo_coursehub_course",
         "isMappedToAppShell": true,
         "shouldSuppressGlobalEvents": true
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "allowBoth",
+        "columnLimit": 0,
+        "columns": "",
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
+        "enableDotWalk": true,
+        "enableLiveList": false,
+        "enableQuickEdit": true,
+        "enableReferenceLinks": true,
+        "fetchHighlightedValues": true,
+        "filter": "",
+        "fixedFilter": "",
+        "groupBy": "",
+        "listId": null,
+        "listMenuConfigurationId": null,
+        "listType": "default",
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "parentRecordSysId": null,
+        "parentTable": null,
+        "relatedListName": null,
+        "rowLimit": 10,
+        "table": "x_quo_coursehub_course"
     }
 }</macroponent_config>
         <screen display_value="Default">b1f33276c3fd22109642f61ed4013141</screen>
@@ -19,13 +46,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-01 22:49:26</sys_created_on>
         <sys_id>7df33276c3fd22109642f61ed4013145</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_7df33276c3fd22109642f61ed4013145</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-01 23:01:00</sys_updated_on>
+        <sys_updated_on>2025-06-03 17:06:50</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

@@ -2,56 +2,81 @@
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
     "5865e308432021105571609dc7b8f23b": {
-        "listType": "default",
-        "table": "x_quo_coursehub_course",
-        "listTitle": "",
-        "fixedFilter": "",
-        "filter": "",
-        "groupBy": "",
-        "view": "",
-        "columns": "",
-        "columnLimit": 0,
-        "rowLimit": null,
-        "currentPage": 0,
-        "enableColumnSorting": true,
-        "columnFilteringPopoverDisplay": "allowBoth",
-        "enableCellFiltering": true,
-        "enableDeclarativeActions": true,
         "allRecordsSelected": false,
-        "selectedRecords": [],
-        "exceptedRecords": [],
-        "enableQuickEdit": true,
-        "onlyEnableSelectionWhenRequiredByActions": true,
-        "enableReferenceLinks": true,
-        "enableLiveList": false,
-        "recordCountLimit": null,
-        "fetchHighlightedValues": false,
+        "columnFilteringPopoverDisplay": "allowBoth",
+        "columnLimit": 0,
+        "columnPreferenceKey": "",
+        "columns": "sys_id,admission_date,sys_created_on,sys_updated_on",
+        "currentPage": 0,
+        "enableCellFiltering": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
         "enableDotWalk": true,
-        "transformScriptSysId": null,
-        "transformScriptArgs": {},
-        "listMenuConfigurationId": null,
+        "enableLiveList": false,
+        "enableQuickEdit": true,
+        "enableReferenceLinks": true,
+        "exceptedRecords": [],
+        "fetchHighlightedValues": false,
+        "filter": "",
+        "fixedFilter": "",
+        "groupBy": "",
         "listId": null,
-        "parentTable": null,
+        "listMenuConfigurationId": null,
+        "listTitle": "",
+        "listType": "default",
+        "onlyEnableSelectionWhenRequiredByActions": true,
         "parentRecordSysId": null,
+        "parentTable": null,
+        "recordCountLimit": null,
         "relatedListName": null,
+        "rowLimit": null,
+        "selectedRecords": [],
+        "table": "x_quo_coursehub_learner",
         "tinyId": "",
-        "columnPreferenceKey": ""
+        "transformScriptArgs": {},
+        "transformScriptSysId": null,
+        "view": ""
     },
-    "table": "task",
-    "sysId": "ba55fa32150c22104f3415f71eacd9a4"
+    "table": "x_quo_coursehub_course",
+    "sysId": "32d6e8f6c33522109642f61ed401314f",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "actionConfigId": "",
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "headerConfigId": "",
+        "highlightedValueConfigId": "",
+        "inputActionLayoutId": "",
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "cdc86cb6c33522109642f61ed401314d",
+        "inputTable": "x_quo_coursehub_course",
+        "isMappedToAppShell": true,
+        "overrideAppContextConfigIds": false,
+        "requireExplicitEventMapping": false,
+        "ribbonConfigId": "",
+        "screen": null,
+        "selectedTabIndex": 0,
+        "shouldDisplayFormErrorsAsPageAlerts": false,
+        "shouldSuppressGlobalEvents": true,
+        "skipRelatedListEval": false,
+        "userPrefs": null,
+        "viewRuleConfigId": ""
+    }
 }</macroponent_config>
         <screen display_value="Dashboard">98f48343c3f1a2109642f61ed40131b8</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-02 18:42:06</sys_created_on>
         <sys_id>5cf48343c3f1a2109642f61ed40131bc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_5cf48343c3f1a2109642f61ed40131bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-03 12:10:39</sys_updated_on>
+        <sys_updated_on>2025-06-03 19:37:35</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

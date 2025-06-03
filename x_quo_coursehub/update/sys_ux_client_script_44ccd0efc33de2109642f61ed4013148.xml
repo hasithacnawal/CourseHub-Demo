@@ -3,7 +3,7 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="Standard record page">25f33276c3fd22109642f61ed4013131</macroponent>
-        <name>Subscribed</name>
+        <name>Avoid Duplicating Subscriptions</name>
         <preset/>
         <required_translations>[]</required_translations>
         <script><![CDATA[/**
@@ -14,27 +14,32 @@
 * @param {ApiHelpers} params.helpers
 */
 function handler({api, event, helpers, imports}) {
-   
-  //   const results = api.data.subscription_for_user.results || [];
-
-  // // If any result exists, the user is subscribed
-  // const isSubscribed = results.length > 0;
-
-  api.setState("subscribed", true);
+const subs = api.data.existing_subscription.results || [];
+  console.log(api);
+  if (subs.length > 0) {
+    // Subscription already exists
+    // api.notifications.showToast({
+    //   type: 'info',
+    //   message: 'You are already subscribed to this course.'
+    // });
+    console.log("duplication avoided");
+    api.events.cancel();
+    return;
+  }
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-03 15:40:37</sys_created_on>
-        <sys_id>3c422f57c339e2109642f61ed401318d</sys_id>
-        <sys_mod_count>37</sys_mod_count>
-        <sys_name>Subscribed</sys_name>
+        <sys_created_on>2025-06-03 19:53:44</sys_created_on>
+        <sys_id>44ccd0efc33de2109642f61ed4013148</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Avoid Duplicating Subscriptions</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
-        <sys_update_name>sys_ux_client_script_3c422f57c339e2109642f61ed401318d</sys_update_name>
+        <sys_update_name>sys_ux_client_script_44ccd0efc33de2109642f61ed4013148</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-03 20:43:28</sys_updated_on>
+        <sys_updated_on>2025-06-03 20:39:12</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

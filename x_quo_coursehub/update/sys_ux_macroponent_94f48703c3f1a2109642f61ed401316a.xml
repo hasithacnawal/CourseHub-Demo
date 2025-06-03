@@ -1303,66 +1303,304 @@
                                                             },
                                                             "dataPassthrough": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": null
+                                                                "value": [
+                                                                    {
+                                                                        "data": [
+                                                                            {
+                                                                                "change": "0",
+                                                                                "changePercent": "0",
+                                                                                "value": "2"
+                                                                            }
+                                                                        ],
+                                                                        "metadata": {
+                                                                            "aggregate": {
+                                                                                "fieldType": "decimal"
+                                                                            },
+                                                                            "changeArrow": "steady",
+                                                                            "dataSourceLabel": "Number of open incidents",
+                                                                            "eventData": {
+                                                                                "indicatorSysid": "fb007202d7130100b96d45a3ce6103b4"
+                                                                            },
+                                                                            "filterQuery": "opened_atONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^ORopened_at&lt;javascript:gs.beginningOfToday()^resolved_atISEMPTY^ORresolved_at&gt;javascript:gs.endOfToday()^state!=8",
+                                                                            "format": {
+                                                                                "frequency": "daily",
+                                                                                "precision": 0,
+                                                                                "unitFormat": "{0}"
+                                                                            },
+                                                                            "previousScoreDate": "1642809600000",
+                                                                            "scoreDate": "1642896000000"
+                                                                        },
+                                                                        "sparkline": {
+                                                                            "data": [
+                                                                                {
+                                                                                    "timestamp": "1637798400000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1637884800000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1637971200000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638057600000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638144000000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638230400000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638316800000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638403200000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638489600000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638576000000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638662400000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638748800000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638835200000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1638921600000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639008000000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639094400000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639180800000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639267200000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639353600000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639440000000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639526400000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639612800000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639699200000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639785600000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639872000000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1639958400000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640044800000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640131200000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640217600000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640304000000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640390400000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640476800000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640563200000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640649600000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640736000000",
+                                                                                    "value": "54"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640822400000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640908800000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1640995200000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641081600000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641168000000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641254400000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641340800000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641427200000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641513600000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641600000000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641686400000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641772800000",
+                                                                                    "value": "62"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641859200000",
+                                                                                    "value": "61"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1641945600000",
+                                                                                    "value": "61"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642032000000",
+                                                                                    "value": "59"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642118400000",
+                                                                                    "value": "59"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642204800000",
+                                                                                    "value": "59"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642291200000",
+                                                                                    "value": "60"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642377600000",
+                                                                                    "value": "60"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642464000000",
+                                                                                    "value": "60"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642550400000",
+                                                                                    "value": "59"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642636800000",
+                                                                                    "value": "40"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642723200000",
+                                                                                    "value": "40"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642809600000",
+                                                                                    "value": "40"
+                                                                                },
+                                                                                {
+                                                                                    "timestamp": "1642896000000",
+                                                                                    "value": "40"
+                                                                                }
+                                                                            ],
+                                                                            "metadata": {
+                                                                                "aggregate": {
+                                                                                    "fieldType": "decimal"
+                                                                                },
+                                                                                "dataSourceLabel": "Number of open incidents",
+                                                                                "eventData": {
+                                                                                    "indicatorSysid": "fb007202d7130100b96d45a3ce6103b4"
+                                                                                },
+                                                                                "format": {
+                                                                                    "frequency": "daily",
+                                                                                    "precision": 0,
+                                                                                    "unitFormat": "{0}"
+                                                                                },
+                                                                                "series": [
+                                                                                    {
+                                                                                        "id": "value",
+                                                                                        "label": "Number of open incidents",
+                                                                                        "type": "value"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
                                                             },
                                                             "dataSources": {
-                                                                "container": [
-                                                                    {
-                                                                        "container": {
-                                                                            "allowRealTime": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": true
-                                                                            },
-                                                                            "dataCategories": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": [
-                                                                                    "trend",
-                                                                                    "group",
-                                                                                    "simple"
-                                                                                ]
-                                                                            },
-                                                                            "filterQuery": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": ""
-                                                                            },
-                                                                            "id": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": "dGFibGV4X3F1b19jb3Vyc2VodWJfY291cnNlMTc0ODg5MTM2MzM0OQ=="
-                                                                            },
-                                                                            "isDatabaseView": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": false
-                                                                            },
-                                                                            "label": {
-                                                                                "type": "TRANSLATION_LITERAL",
-                                                                                "value": {
-                                                                                    "code": null,
-                                                                                    "comment": "",
-                                                                                    "message": "Course"
-                                                                                }
-                                                                            },
-                                                                            "preferredVisualizations": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": [
-                                                                                    "d24d53f60350de7a652caf3188a46ed2"
-                                                                                ]
-                                                                            },
-                                                                            "reportSourceSysId": {
-                                                                                "type": "JSON_LITERAL"
-                                                                            },
-                                                                            "sourceType": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": "table"
-                                                                            },
-                                                                            "tableOrViewName": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": "x_quo_coursehub_course"
-                                                                            }
-                                                                        },
-                                                                        "type": "MAP_CONTAINER"
-                                                                    }
-                                                                ],
-                                                                "type": "LIST_CONTAINER"
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
                                                             },
                                                             "dateFormat": {
                                                                 "type": "JSON_LITERAL",
@@ -1469,36 +1707,8 @@
                                                                 "value": "background"
                                                             },
                                                             "metrics": {
-                                                                "container": [
-                                                                    {
-                                                                        "container": {
-                                                                            "aggregateFunction": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": "COUNT"
-                                                                            },
-                                                                            "axisId": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": "primary"
-                                                                            },
-                                                                            "dataSource": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": "dGFibGV4X3F1b19jb3Vyc2VodWJfY291cnNlMTc0ODg5MTM2MzM0OQ=="
-                                                                            },
-                                                                            "id": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": "ZEdGaWJHVjRYM0YxYjE5amIzVnljMlZvZFdKZlkyOTFjbk5sTVRjME9EZzVNVE0yTXpNME9RPT0xNzQ4ODkxMzY0Njc0"
-                                                                            },
-                                                                            "numberFormat": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": {
-                                                                                    "customFormat": false
-                                                                                }
-                                                                            }
-                                                                        },
-                                                                        "type": "MAP_CONTAINER"
-                                                                    }
-                                                                ],
-                                                                "type": "LIST_CONTAINER"
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
                                                             },
                                                             "newReporting": {
                                                                 "type": "JSON_LITERAL",
@@ -1574,7 +1784,7 @@
                                                             },
                                                             "showDataPassthrough": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             },
                                                             "showDataTable": {
                                                                 "type": "JSON_LITERAL",
@@ -1724,7 +1934,7 @@
                                                             {
                                                                 "element_id": "single_score_2",
                                                                 "styles": {
-                                                                    "flex": "none"
+                                                                    "flex": "1 0 auto"
                                                                 }
                                                             }
                                                         ],
@@ -2264,13 +2474,10 @@
                                                                 "value": null
                                                             },
                                                             "params": {
-                                                                "container": {
-                                                                    "query": {
-                                                                        "type": "JSON_LITERAL",
-                                                                        "value": null
-                                                                    }
-                                                                },
-                                                                "type": "MAP_CONTAINER"
+                                                                "type": "JSON_LITERAL",
+                                                                "value": {
+                                                                    "query": null
+                                                                }
                                                             },
                                                             "passiveNavigation": {
                                                                 "type": "JSON_LITERAL",
@@ -3289,7 +3496,76 @@
     }
 ]</composition>
         <da_relay_models/>
-        <data>[]</data>
+        <data>[
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "elementId": "look_up_multiple_records_1",
+        "elementLabel": "Look up multiple records 1",
+        "eventMappings": [],
+        "inputValues": {
+            "encodedQuery": {
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "learner="
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "user",
+                                        "sys_id"
+                                    ],
+                                    "category": "session"
+                                },
+                                "type": "CONTEXT_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL"
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "course,learner,subscription_date"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_quo_coursehub_course_subscription"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events>71953e9bc335e2109642f61ed401312b</dispatched_events>
@@ -3497,6 +3773,9 @@
   "message" : "Number",
   "comment" : ""
 }, {
+  "message" : "Number of open incidents",
+  "comment" : ""
+}, {
   "message" : "Open Record",
   "comment" : ""
 }, {
@@ -3522,14 +3801,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-02 18:42:05</sys_created_on>
         <sys_id>94f48703c3f1a2109642f61ed401316a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Dashboard</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_ux_macroponent_94f48703c3f1a2109642f61ed401316a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-03 16:56:02</sys_updated_on>
+        <sys_updated_on>2025-06-03 19:41:45</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=94f48703c3f1a2109642f61ed401316a"/>
 </record_update>
