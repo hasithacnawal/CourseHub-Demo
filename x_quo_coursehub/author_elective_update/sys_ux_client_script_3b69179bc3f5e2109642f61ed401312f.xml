@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Standard record page">25f33276c3fd22109642f61ed4013131</macroponent>
+        <name>button_1/isHidden</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+  // Checks if already subscribed 
+function evaluateProperty({api, helpers}) {
+  console.log(api);
+  
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 15:04:20</sys_created_on>
+        <sys_id>3b69179bc3f5e2109642f61ed401312f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>button_1/isHidden</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_client_script_3b69179bc3f5e2109642f61ed401312f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 15:40:37</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>70f3d5661b823110e84d2f8dee4bcb88</instance_id>
+        <instance_name>dev193691</instance_name>
+        <name>sys_ux_client_script_3b69179bc3f5e2109642f61ed401312f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Standard record page"&gt;25f33276c3fd22109642f61ed4013131&lt;/macroponent&gt;&lt;name&gt;button_1/isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+  // Checks if already subscribed 
+function evaluateProperty({api, helpers}) {
+  console.log(api);
+  
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-03 15:04:20&lt;/sys_created_on&gt;&lt;sys_id&gt;3b69179bc3f5e2109642f61ed401312f&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;button_1/isHidden&lt;/sys_name&gt;&lt;sys_package display_value="CourseHub" source="x_quo_coursehub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CourseHub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_3b69179bc3f5e2109642f61ed401312f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-03 15:40:37&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1222605313</payload_hash>
+        <record_name>button_1/isHidden</record_name>
+        <reverted_from/>
+        <source>4cb8bb6ec33122109642f61ed4013148</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 15:40:37</sys_created_on>
+        <sys_id>ebf4279bc339e2109642f61ed40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973673a2240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 15:40:37</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>63f4ef1b7139e210ddec606661cf5e18</update_guid>
+        <update_guid_history>63f4ef1b7139e210ddec606661cf5e18:1222605313,5c236fd74b39e2103a93bc853ad88cb8:505467469,e3912357f339e2107ef824e6f9def48a:-1907162246,8ef0ef17ba39e210b0b3961c422ae099:1950236331,08cf9fdf1ff5e2101d582015db21307d:1034462551,f97f93d35239e2108577163d4f2fb442:682944854,94bc9bdf52f5e210ed21ca445154f5d9:-1059489757</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 16:16:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>802ebae69b1546009c6db3a257458c10</sys_id>
+        <sys_metadata>3b69179bc3f5e2109642f61ed401312f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>button_1/isHidden</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_3b69179bc3f5e2109642f61ed401312f</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_3b69179bc3f5e2109642f61ed401312f">ebf4279bc339e2109642f61ed40131dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 16:16:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

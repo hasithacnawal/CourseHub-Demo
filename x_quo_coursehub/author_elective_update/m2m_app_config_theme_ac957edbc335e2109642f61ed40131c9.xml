@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 12:13:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac957edbc335e2109642f61ed40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>m2m_app_config_theme_ac957edbc335e2109642f61ed40131c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 12:13:25</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="coursehub_portal">21bb95fac33922109642f61ed40131ce</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>70f3d5661b823110e84d2f8dee4bcb88</instance_id>
+        <instance_name>dev193691</instance_name>
+        <name>m2m_app_config_theme_ac957edbc335e2109642f61ed40131c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-03 12:13:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ac957edbc335e2109642f61ed40131c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package><sys_policy/><sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope><sys_update_name>m2m_app_config_theme_ac957edbc335e2109642f61ed40131c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-03 12:13:25</sys_updated_on><theme/><ux_app_configuration display_value="coursehub_portal">21bb95fac33922109642f61ed40131ce</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>2104484998</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4cb8bb6ec33122109642f61ed4013148</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 12:13:25</sys_created_on>
+        <sys_id>e4957edbc335e2109642f61ed40131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19735b5f2280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 12:13:25</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>a8957edbac35e210017d6fdbc26fc2cc</update_guid>
+        <update_guid_history>a8957edbac35e210017d6fdbc26fc2cc:2104484998</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3a96c353c3b5e2109642f61ed401310c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 13:27:51</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>12439c7d7a5b48d4b5b6e6e89917ae90</sys_id>
+        <sys_metadata>ac957edbc335e2109642f61ed40131c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_ac957edbc335e2109642f61ed40131c9</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_ac957edbc335e2109642f61ed40131c9">e4957edbc335e2109642f61ed40131cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 13:27:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
