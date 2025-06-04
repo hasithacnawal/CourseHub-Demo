@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>course-list</landing_path>
+        <name>coursehub_app</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 12:52:56</sys_created_on>
+        <sys_id>bb6be8b2c33522109642f61ed401313d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>coursehub_app</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_app_config_bb6be8b2c33522109642f61ed401313d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 15:01:06</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=bb6be8b2c33522109642f61ed401313d"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>70f3d5661b823110e84d2f8dee4bcb88</instance_id>
+        <instance_name>dev193691</instance_name>
+        <name>sys_ux_app_config_bb6be8b2c33522109642f61ed401313d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>course-list</landing_path>
+        <name>coursehub_app</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 12:52:56</sys_created_on>
+        <sys_id>bb6be8b2c33522109642f61ed401313d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>coursehub_app</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_app_config_bb6be8b2c33522109642f61ed401313d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 15:01:06</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=bb6be8b2c33522109642f61ed401313d"/>
+</record_update>]]></payload>
+        <payload_hash>-1002504958</payload_hash>
+        <record_name>coursehub_app</record_name>
+        <reverted_from/>
+        <source>0b01edffc33566109642f61ed401317d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 19:21:16</sys_created_on>
+        <sys_id>e511e133c37566109642f61ed40131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973c6401800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 19:21:16</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>e111e133d37566108da1001f2dc991aa</update_guid>
+        <update_guid_history>e111e133d37566108da1001f2dc991aa:0,7773d17fccf16610e1941fa129dfb2a7:2096868921,d1c84d36c7f52210d8ad10b58d9cdf72:2076987800,3b6be47ea4352210542951371995b10b:-607704685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 19:26:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>5475993edd5545a0b8e3d31aef5f71e4</sys_id>
+        <sys_metadata>bb6be8b2c33522109642f61ed401313d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coursehub_app</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_bb6be8b2c33522109642f61ed401313d</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_bb6be8b2c33522109642f61ed401313d">e511e133c37566109642f61ed40131aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 19:26:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
