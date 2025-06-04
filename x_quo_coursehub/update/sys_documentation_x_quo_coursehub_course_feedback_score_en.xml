@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="score" label="Score" language="en" table="x_quo_coursehub_course_feedback">
+    <sys_documentation element="score" label="Rating" language="en" table="x_quo_coursehub_course_feedback">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>score</element>
             <help/>
             <hint/>
-            <label>Score</label>
+            <label>Rating</label>
             <language>en</language>
             <name>x_quo_coursehub_course_feedback</name>
-            <plural>Scores</plural>
+            <plural>Ratings</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-06-04 19:25:24</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Score</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Rating</sys_name>
             <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
             <sys_policy/>
             <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
             <sys_update_name>sys_documentation_x_quo_coursehub_course_feedback_score_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-04 19:25:24</sys_updated_on>
+            <sys_updated_on>2025-06-04 19:52:04</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
