@@ -22,14 +22,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>6c95b61fc335e2109642f61ed4013132</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>chrome_toolbar</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_ux_page_property_6c95b61fc335e2109642f61ed4013132</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-03 13:27:51</sys_updated_on>
+        <sys_updated_on>2025-06-04 21:19:34</sys_updated_on>
         <type>json</type>
         <unique_name>x_quo_coursehub.65bb95fac33922109642f61ed40131d1.root.global.chrome_toolbar</unique_name>
         <value>[
@@ -68,14 +68,14 @@
         "viewportInfo": {}
     },
     {
-        "id": "course-list",
+        "id": "my-subscriptions",
         "label": {
             "translatable": true,
             "message": "My Subscriptions"
         },
         "icon": "document-checklist-search-outline",
         "routeInfo": {
-            "route": "learners-list"
+            "route": "my-subscriptions"
         },
         "group": "top",
         "order": 200,

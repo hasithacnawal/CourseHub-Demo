@@ -3,27 +3,27 @@
         <app_config display_value="coursehub_portal">21bb95fac33922109642f61ed40131ce</app_config>
         <description/>
         <extension_point/>
-        <fields>sysId,table</fields>
+        <fields/>
         <icon/>
         <name>My Subscriptions</name>
-        <optional_parameters>views,activityLogs,extraParams,fields,screen,selectedTabIndex,userPrefs,query</optional_parameters>
+        <optional_parameters/>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>my-subscriptions</route_type>
-        <screen_type display_value="Course List">b4dbd57ec33922109642f61ed4013196</screen_type>
+        <screen_type display_value="My Subscriptions">7e51b577c3b566109642f61ed4013162</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-01 16:24:21</sys_created_on>
-        <sys_id>74dbd57ec33922109642f61ed4013199</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2025-06-04 20:32:21</sys_created_on>
+        <sys_id>f251b577c3b566109642f61ed4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>My Subscriptions</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
-        <sys_update_name>sys_ux_app_route_74dbd57ec33922109642f61ed4013199</sys_update_name>
+        <sys_update_name>sys_ux_app_route_f251b577c3b566109642f61ed4013166</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-03 13:36:49</sys_updated_on>
+        <sys_updated_on>2025-06-04 20:32:21</sys_updated_on>
     </sys_ux_app_route>
-    <sys_translated_text action="delete_multiple" query="documentkey=74dbd57ec33922109642f61ed4013199"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f251b577c3b566109642f61ed4013166"/>
 </record_update>
