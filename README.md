@@ -1,37 +1,106 @@
-# Course Hub
+# Course Hub - Solutions 
 
-Welcome to the **Course Subscription Application**! This boilerplate application is designed to help you get started with building a simple course subscription application on the ServiceNow platform. It provides the foundational data model and basic configurations, allowing you to focus on implementing the required features and enhancing the application.
+Welcome to the **Course Subscription Application**!, A simple ServiceNow prototype that allows **Learners** to view and subscribe to **Courses** using the platform's native capabilities such as tables, UI Builder, Data Resources, and UX Components.
 
 ## Table of Contents
 
-- [Introduction](#markdown-header-introduction)
-- [Prerequisites](#markdown-header-prerequisites)
-- [Getting Started](#markdown-header-getting-started)
 - [Application Overview](#markdown-header-application-overview)
-- [Navigating the Application](#markdown-header-navigating-the-application)
-- [Next Steps](#markdown-header-next-steps)
-- [Additional Resources](#markdown-header-additional-resources)
-- [Support](#markdown-header-support)
+- [Data Model]
+- [Key Features]
+- [Testing]
+- [Support]
 
-## Introduction
 
-The Course Subscription Application allows learners to view available courses and subscribe to them. This boilerplate provides the essential components to help you implement features such as fetching course lists, subscribing to courses, and displaying subscribed courses.
-
-> The goal is to have workable simple version of application that involves ServiceNow in some way. We do not expect you to understand whole ServiceNow platform in couple of days. 
-
-## Prerequisites
 
 ## Application Overview
 
+The application **CourseHub** is built on the **ServiceNow Now Experience Framework** and showcases:
+- A Simple Dashboard to view recently added courses and some user-specific insights
+- A list of available courses (List View)
+- A detailed view of selected course (Form View)
+- The ability for users (learners) to subscribe or unsubscribe
+
+#### - UI tailored using Service Now **UI Builder**
+#### - UI functionality tests using **Robot Framework** 
+
+
 ### Data Model
 
-The application consists of three main tables:
+The application consists of 4 main tables:
 
 1. **Course** (`x_quo_coursehub_course`)
 2. **Learner** (`x_quo_coursehub_learner`)
 3. **Course Subscription** (`x_quo_coursehub_course_subscription`)
+4. **Course Feedback** (`x_quo_coursehub_course_feedback`)
 
 All the tables come with default fields: `sys_id`, `created`, `created_by`, `updated`, `updated_by`.
+
+## 🧩 Key Features
+
+
+### 📊 Simple Dashboard
+- Display the count of active courses
+- Display the Count of Own Subscriptions
+- Display recently added courses (Sorted by CreatedDate Desc)
+
+📷 ![Dashboard UI](./screenshots/dashboard-ui.png)
+
+### 📚 Course Listing
+- Display all available courses
+- Fields shown: **Number**, **Title**, **Description**, **Duration**
+- **Subscribe** button is visible when a Course is selected.
+
+📷 ![Course List UI](./screenshots/course-list-ui.png)
+
+---
+
+### ✅ Course Subscription Logic
+📷 ![Subscribe Button Action](./screenshots/subscribe-action.png)
+
+  #### 1. Traditional Subscribe Button
+  - Only visible if the logged-in user is not subscribed to a course.
+  - Clicking "Subscribe" button proceeds a scenario that creates a record in the **Course Subscription** table
+  - A popup model opens after hitting Subscribe button to confirm your action. 📷 ![Subscribe Confirm Model](./screenshots/subscribe-confirm-model.png)
+  
+    
+  #### 2.  **Unsubscribe** button 📷 ![Unsubscribe Action](./screenshots/unsubscribe-action.png)
+  - Only visible if the logged-in user is already subscribed to the selected Course
+  - Clicking "Unsubscribe" button proceeds a scenario that deletes a record from the **Course Subscription** table
+  - A popup model opens after hitting Unsubscribe button to confirm your action. 📷 ![Unsubscribe Confirm Model](./screenshots/unsubscribe-confirm-model.png)
+    
+  ### Duplicate preventions.
+  - Subscribe button is visible only by checking the **Course Subscription** table for selected course and session-user.
+  - Record creation action will validate the **Course Subscription** table beforehand creating a new record whether it already exists through a Client Script. 📷 ![](./screenshots/clientscript.png)
+  - This Prevents duplicate subscriptions.
+
+
+---
+
+### 👤 My Subscriptions
+- Shows the learner's own subscriptions
+- Data is filtered using a **Lookup Multiple Records** data source
+- Conditional visibility is used to match course `sys_id` to subscription records
+
+📷 ![My Subscriptions UI](./screenshots/my-subscriptions.png)
+
+---
+
+## 🧪 Testing
+
+Tests are written in **Robot Framework** and located in the `/Tests` folder.
+
+### Support
+
+📝 Setup Instructions
+
+- Clone the repo via ServiceNow Studio or Source Control
+- Install on your instance (Scoped App)
+- Navigate to UI Builder and open the Course Subscription page
+- Preview and test via Workspace
+
+🙋‍♂️ Contributors
+   - Hasitha Nawalage – https://www.linkedin.com/in/hasitha-chandana/
+   - Contact: hasithacnawal@gmail.com
 
 
 
