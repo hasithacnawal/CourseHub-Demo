@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="coursehub_app">7f6be47ec33522109642f61ed401310c</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 12:52:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>347b647ec33522109642f61ed40131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_page_property_347b647ec33522109642f61ed40131b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 12:52:59</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_quo_coursehub.7f6be47ec33522109642f61ed401310c.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=347b647ec33522109642f61ed40131b6"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>70f3d5661b823110e84d2f8dee4bcb88</instance_id>
+        <instance_name>dev193691</instance_name>
+        <name>sys_ux_page_property_347b647ec33522109642f61ed40131b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="coursehub_app">7f6be47ec33522109642f61ed401310c</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-01 12:52:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>347b647ec33522109642f61ed40131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_page_property_347b647ec33522109642f61ed40131b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-01 12:52:59</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_quo_coursehub.7f6be47ec33522109642f61ed401310c.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=347b647ec33522109642f61ed40131b6"/>
+</record_update>]]></payload>
+        <payload_hash>-1059656494</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>0b01edffc33566109642f61ed401317d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 19:21:18</sys_created_on>
+        <sys_id>0a112533c37566109642f61ed4013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973c64080d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 19:21:18</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>86112533a7756610b693f11ab160545c</update_guid>
+        <update_guid_history>86112533a7756610b693f11ab160545c:0,2f73d17f7af166103043bc5861449b74:1129891255,f87b647eb335221021392a27272201b7:-174083726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 19:26:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>21aa24ff7d1d4d2381b2d25add8b03e1</sys_id>
+        <sys_metadata>347b647ec33522109642f61ed40131b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_347b647ec33522109642f61ed40131b6</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_347b647ec33522109642f61ed40131b6">0a112533c37566109642f61ed4013175</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 19:26:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

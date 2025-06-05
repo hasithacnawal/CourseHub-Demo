@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Standard record page">25f33276c3fd22109642f61ed4013131</macroponent>
+        <name>Avoid Duplicating Subscriptions</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+const subs = api.data.existing_subscription.results || [];
+  console.log(api);
+  if (subs.length > 0) {
+    // Subscription already exists
+    // api.notifications.showToast({
+    //   type: 'info',
+    //   message: 'You are already subscribed to this course.'
+    // });
+    console.log("duplication avoided");
+    api.events.cancel();
+    return;
+  }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 19:53:44</sys_created_on>
+        <sys_id>44ccd0efc33de2109642f61ed4013148</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Avoid Duplicating Subscriptions</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_client_script_44ccd0efc33de2109642f61ed4013148</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:39:12</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

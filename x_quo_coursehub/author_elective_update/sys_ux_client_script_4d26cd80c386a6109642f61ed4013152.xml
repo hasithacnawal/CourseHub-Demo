@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">fef4d757c3f5e2109642f61ed401318b</macroponent>
+        <name>button_2/isHidden</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    console.log("Hi Cards");
+    console.log(api.data.own_subscriptions.results[0].course.value.sys_id,api.item.value.sys_id);
+
+    return api.data.own_subscriptions.results.some(
+        sub => sub.course.value === api.item.value.sys_id.value
+    );
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 12:24:22</sys_created_on>
+        <sys_id>4d26cd80c386a6109642f61ed4013152</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>button_2/isHidden</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_client_script_4d26cd80c386a6109642f61ed4013152</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 13:04:18</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>70f3d5661b823110e84d2f8dee4bcb88</instance_id>
+        <instance_name>dev193691</instance_name>
+        <name>sys_ux_client_script_4d26cd80c386a6109642f61ed4013152</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;fef4d757c3f5e2109642f61ed401318b&lt;/macroponent&gt;&lt;name&gt;button_2/isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    console.log("Hi Cards");
+    console.log(api.data.own_subscriptions.results[0].course.value.sys_id,api.item.value.sys_id);
+
+    return api.data.own_subscriptions.results.some(
+        sub =&gt; sub.course.value === api.item.value.sys_id.value
+    );
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-05 12:24:22&lt;/sys_created_on&gt;&lt;sys_id&gt;4d26cd80c386a6109642f61ed4013152&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;button_2/isHidden&lt;/sys_name&gt;&lt;sys_package display_value="CourseHub" source="x_quo_coursehub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CourseHub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_4d26cd80c386a6109642f61ed4013152&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-05 13:04:18&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1054610932</payload_hash>
+        <record_name>button_2/isHidden</record_name>
+        <reverted_from/>
+        <source>b073e5f3c37566109642f61ed40131f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 13:04:18</sys_created_on>
+        <sys_id>59649544c3c6a6109642f61ed401317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19740313cba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 13:04:18</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>dd64954411c6a610a63295091a3f6279</update_guid>
+        <update_guid_history>dd64954411c6a610a63295091a3f6279:1054610932,8b33ddc0c1c6a6104936b432520df48b:2103494622,fde219800cc6a610d34dbc426c11f68a:283835798,0a2fc58c5886a610e9eaf51d70cbefb2:-1594780738,9d5d8dc8f386a610705452bb239cb2fb:-608450913,2bfc89882086a6109710f2fa72f68f8f:1778532980,f44c89889f86a61010deea6b5202be88:-222754153,ecab85847386a610dd1c675b1c16ba0d:-1093583313,184b45842d86a61085a7fadb7ecd5e57:-130329782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 13:07:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0a886e6c34de422883d022b619ef17c4</sys_id>
+        <sys_metadata>4d26cd80c386a6109642f61ed4013152</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>button_2/isHidden</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_4d26cd80c386a6109642f61ed4013152</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_4d26cd80c386a6109642f61ed4013152">59649544c3c6a6109642f61ed401317a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 13:07:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
