@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7841e933c37566109642f61ed4013106" label="Course Feedback" max_length="40" name="x_quo_coursehub_course_feedback" type="collection">
         <element label="Learner" max_length="32" name="learner" reference="x_quo_coursehub_learner" type="reference"/>
-        <element default="5" label="Rating" max_length="2" name="score" type="integer"/>
-        <element label="Course" max_length="32" name="course" reference="x_quo_coursehub_course" type="reference"/>
+        <element default="5" label="Rating" mandatory="true" max_length="2" name="score" type="integer"/>
+        <element label="Course" mandatory="true" max_length="32" name="course" reference="x_quo_coursehub_course" type="reference"/>
         <element label="Feedback" max_length="1000" name="feedback" type="string"/>
         <index name="index">
             <element name="course"/>
