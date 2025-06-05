@@ -121,7 +121,7 @@
         ]
     }
 ]</event_mappings>
-        <macroponent display_value="Default">fef4d757c3f5e2109642f61ed401318b</macroponent>
+        <macroponent display_value="View Only">7feadab7c37966109642f61ed4013122</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
@@ -152,7 +152,7 @@
         "value": "y"
     }
 }</macroponent_config>
-        <name>Default</name>
+        <name>View Only</name>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
@@ -161,19 +161,19 @@
         <screen_type display_value="Course List">7ef41757c3f5e2109642f61ed401318b</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-03 14:30:40</sys_created_on>
+        <sys_created_on>2025-06-04 23:34:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b2f4d757c3f5e2109642f61ed4013191</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Default</sys_name>
+        <sys_id>fbeadab7c37966109642f61ed4013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Only</sys_name>
         <sys_overrides/>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
-        <sys_update_name>sys_ux_screen_b2f4d757c3f5e2109642f61ed4013191</sys_update_name>
+        <sys_update_name>sys_ux_screen_fbeadab7c37966109642f61ed4013127</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-04 23:18:16</sys_updated_on>
+        <sys_updated_on>2025-06-04 23:34:00</sys_updated_on>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=b2f4d757c3f5e2109642f61ed4013191"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=fbeadab7c37966109642f61ed4013127"/>
 </record_update>

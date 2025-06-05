@@ -354,103 +354,7 @@
                                 },
                                 "elementId": "list___simple_1",
                                 "elementLabel": "List - Simple 1",
-                                "eventMappings": [
-                                    {
-                                        "eventMappingId": "cmbiflbbcdaabktddffiiehhijjggeeqxq",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "x_quo_coursehub.NAV_ITEM_SELECTED_RELAY_3e513977c3b566109642f61ed40131b1",
-                                                    "payload": {
-                                                        "container": {
-                                                            "external": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "fields": {
-                                                                "container": {
-                                                                    "sysId": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "record_id"
-                                                                            ]
-                                                                        },
-                                                                        "type": "EVENT_PAYLOAD_BINDING"
-                                                                    },
-                                                                    "table": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "table"
-                                                                            ]
-                                                                        },
-                                                                        "type": "EVENT_PAYLOAD_BINDING"
-                                                                    }
-                                                                },
-                                                                "type": "MAP_CONTAINER"
-                                                            },
-                                                            "multiInstField": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "navigationOptions": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "params": {
-                                                                "container": {
-                                                                    "query": {
-                                                                        "type": "JSON_LITERAL",
-                                                                        "value": null
-                                                                    }
-                                                                },
-                                                                "type": "MAP_CONTAINER"
-                                                            },
-                                                            "passiveNavigation": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "redirect": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "route": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "course-record"
-                                                            },
-                                                            "targetRoute": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "title": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            }
-                                                        },
-                                                        "type": "MAP_CONTAINER"
-                                                    },
-                                                    "sysId": "b30771bbc3b566109642f61ed40131bc"
-                                                },
-                                                "operation": null,
-                                                "targetId": "cmbiflbbcdaabkuddffiieiniipjjeaat",
-                                                "type": "EVENT"
-                                            }
-                                        ]
-                                    }
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -891,17 +795,6 @@
             }
         },
         "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
-            "id": "809779b477ca4110960ced43ba5a9924",
-            "type": "TRANSFORM"
-        },
-        "elementId": "get_related_lists_1",
-        "elementLabel": "Get Related Lists 1",
-        "eventMappings": [],
-        "inputValues": {},
-        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
@@ -965,14 +858,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-04 20:32:21</sys_created_on>
         <sys_id>3e513977c3b566109642f61ed40131b1</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_ux_macroponent_3e513977c3b566109642f61ed40131b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-04 21:37:16</sys_updated_on>
+        <sys_updated_on>2025-06-05 13:11:59</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=3e513977c3b566109642f61ed40131b1"/>
 </record_update>

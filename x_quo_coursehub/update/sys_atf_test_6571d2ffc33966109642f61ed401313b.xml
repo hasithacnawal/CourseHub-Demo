@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="CHQA-2 : Create a New Course">ad158abfc3f566109642f61ed4013125</copied_from>
+        <description>Test generated from template. To complete this test do the following:
+1. Pick a correct user to impersonate, a user with the right roles.
+2. Opens a new form in this table
+3. Edit the Set Field Values step to supply values for all fields that need them.
+4. Validates field values on the current form.
+5. Edit the mandatory, non mandatory, read only, non read only, visible and non visible fields.
+6. Edit the visible, not visible fields of the form.
+7. Clicks a UI action on the current form
+8. Submits the current form.
+</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>CHQA-2 : Create a New Course copy</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 22:52:37</sys_created_on>
+        <sys_id>6571d2ffc33966109642f61ed401313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CHQA-2 : Create a New Course copy</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_atf_test_6571d2ffc33966109642f61ed401313b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 22:52:37</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=6571d2ffc33966109642f61ed401313b"/>
+</record_update>
