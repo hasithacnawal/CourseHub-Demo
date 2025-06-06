@@ -3,39 +3,36 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="Default">fef4d757c3f5e2109642f61ed401318b</macroponent>
-        <name>StateUpdateOnRecordSelect</name>
+        <name>button_1/isHidden</name>
         <preset/>
         <required_translations>[]</required_translations>
         <script><![CDATA[/**
-* @param {params} params
-* @param {api} params.api
-* @param {any} params.event
-* @param {any} params.imports
-* @param {ApiHelpers} params.helpers
-*/
-function handler({api, event, helpers, imports}) {
-    console.log(event);
- if(event.payload.selectionCount==1){
- api.setState("selectedRecord",event.payload.selectedRecords[0]);
- }else{
- api.setState("selectedRecord","");
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    console.log(api);
+    return api.data.own_subscriptions.results.some(sub => sub.course.value == api.state.selectedRecord) || api.state.selectedRecord == "";
 
- }
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-05 00:27:00</sys_created_on>
-        <sys_id>76c52eb7c3b966109642f61ed4013142</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>StateUpdateOnRecordSelect</sys_name>
+        <sys_created_on>2025-06-05 23:31:28</sys_created_on>
+        <sys_id>dcfd5744c342e6109642f61ed401317b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>button_1/isHidden</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
-        <sys_update_name>sys_ux_client_script_76c52eb7c3b966109642f61ed4013142</sys_update_name>
+        <sys_update_name>sys_ux_client_script_dcfd5744c342e6109642f61ed401317b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-05 23:24:01</sys_updated_on>
+        <sys_updated_on>2025-06-05 23:37:30</sys_updated_on>
         <target>macroponent</target>
-        <type>default</type>
+        <type>transform</type>
     </sys_ux_client_script>
 </record_update>
