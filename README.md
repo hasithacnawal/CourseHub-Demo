@@ -1,15 +1,6 @@
-# Course Hub - Solutions 
+# Course Hub - Solution
 
 Welcome to the **Course Subscription Application**!, A simple ServiceNow prototype that allows **Learners** to view and subscribe to **Courses** using the platform's native capabilities such as tables, UI Builder, Data Resources, and UX Components.
-
-## Table of Contents
-
-- [Application Overview](#markdown-header-application-overview)
-- [Data Model]
-- [Key Features]
-- [Testing]
-- [Support]
-
 
 
 ## Application Overview
@@ -24,7 +15,7 @@ The application **CourseHub** is built on the **ServiceNow Now Experience Framew
 #### - UI functionality tests using **Robot Framework** 
 
 
-### Data Model
+### Data Tables
 
 The application consists of 4 main tables:
 
@@ -39,6 +30,7 @@ All the tables come with default fields: `sys_id`, `created`, `created_by`, `upd
 
 
 ### 📊 Simple Dashboard
+
 - Display the count of active courses
 - Display the Count of Own Subscriptions
 - Display recently added courses (Sorted by CreatedDate Desc)
@@ -46,31 +38,41 @@ All the tables come with default fields: `sys_id`, `created`, `created_by`, `upd
 📷 ![Dashboard UI](./screenshots/dashboard-ui.png)
 
 ### 📚 Course Listing
-- Display all available courses
-- Fields shown: **Number**, **Title**, **Description**, **Duration**
-- **Subscribe** button is visible when a Course is selected.
+
+- A **List View** displaying all available courses using **x_quo_coursehub_course** table.
+- Fields shown: **Number**, **Title**, **Description**, **Duration**.
+- **Subscribe** button is visible when a Course is selected. The button is **Hidden** when logged-in user is already subscribed to the Course.
 
 📷 ![Course List UI](./screenshots/course-list-ui.png)
 
 ---
 
 ### ✅ Course Subscription Logic
-📷 ![Subscribe Button Action](./screenshots/subscribe-action.png)
+
 
   #### 1. Traditional Subscribe Button
+  📷 ![Subscribe Button Action](./screenshots/subscribe-action.png)
   - Only visible if the logged-in user is not subscribed to a course.
-  - Clicking "Subscribe" button proceeds a scenario that creates a record in the **Course Subscription** table
+  - Clicking "Subscribe" button proceeds a scenario that creates a record in the **Course Subscription** table.
   - A popup model opens after hitting Subscribe button to confirm your action. 📷 ![Subscribe Confirm Model](./screenshots/subscribe-confirm-model.png)
   
     
-  #### 2.  **Unsubscribe** button 📷 ![Unsubscribe Action](./screenshots/unsubscribe-action.png)
-  - Only visible if the logged-in user is already subscribed to the selected Course
-  - Clicking "Unsubscribe" button proceeds a scenario that deletes a record from the **Course Subscription** table
+  #### 2.  **Unsubscribe** button 
+  📷 ![Unsubscribe Action](./screenshots/unsubscribe-action.png)
+  - Only visible if the logged-in user is already subscribed to the selected Course.
+  - Clicking "Unsubscribe" button proceeds a scenario that deletes a record from the **Course Subscription** table.
   - A popup model opens after hitting Unsubscribe button to confirm your action. 📷 ![Unsubscribe Confirm Model](./screenshots/unsubscribe-confirm-model.png)
-    
-  ### Duplicate preventions.
+
+  #### 3. A feedback can be provided when unsubscribing a Course
+  📷 ![Subscribe Button Action](./screenshots/post-feedback.png)
+  - A popup model opens after confirming Unsubscribe through Unsubscribe Confirmation model.
+  - A StarRating input and Text area is visible inside a custom model to insert a new feedback record to  **Course Feedback** table
+  - Posting feedback can be skipped from the Skip button available in the model popup. 
+
+
+### 🔒 Duplicate preventions
   - Subscribe button is visible only by checking the **Course Subscription** table for selected course and session-user.
-  - Record creation action will validate the **Course Subscription** table beforehand creating a new record whether it already exists through a Client Script. 📷 ![](./screenshots/clientscript.png)
+  - Record creation action will validate the **Course Subscription** table beforehand creating a new record whether it already exists through a Client Script.
   - This Prevents duplicate subscriptions.
 
 
