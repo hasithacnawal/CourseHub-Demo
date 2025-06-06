@@ -89,7 +89,50 @@ All the tables come with default fields: `sys_id`, `created`, `created_by`, `upd
 
 ## 🧪 Testing
 
-Tests are written in **Robot Framework** and located in the `/Tests` folder.
+Automated tests for UI testing have been developed using Robot Framework and are included in the /tests directory. These tests help ensure reliability across key application features. Below is an overview of the implemented test cases along with their internal structure and logic.
+
+####  1. Login Functionality Test
+Purpose: To validate that users can log in successfully using correct credentials.
+
+Test Steps:
+  1. Navigate to the login page.
+  2. Input valid username and password.
+  3. Submit the form.
+  4. Verify that the user is redirected to the landing page.
+  5. Confirm the presence of user-specific elements.
+
+####  2. Invalid Login Test
+Purpose: To ensure that the system handles incorrect login attempts properly.
+
+Test Steps:
+  1. Navigate to the login page.
+  2. Enter invalid credentials.
+  3. Attempt to log in.
+  4. Check for error message loaded in a toast banner.
+
+####  3. Subscribe Button Visibility Test (New Courses)
+Purpose: To verify that the "Subscribe" button is shown only for new (non-subscribed) courses.
+
+Test Steps:
+  1. Log in as a user who has not subscribed to a particular course.
+  2. Navigate to the course listing or course detail page.
+  3. Check that the "Subscribe" button is visible and enabled.
+
+####  4. Subscribe Button Click and Modal Display Test
+Purpose: To validate the functionality of the "Subscribe" button and subsequent UI feedback.
+
+Test Steps:
+  1. Click on the visible "Subscribe" button for a course.
+  2. Wait for the modal or confirmation dialog to appear.
+  3. Verify that modal content is present and correct.
+
+####  5. Unsubscribe Button Visibility Test (Subscribed Courses)
+Purpose: To ensure the "Unsubscribe" button appears for courses the user has already subscribed to.
+
+Test Steps:
+  1. Log in as a user who is already subscribed to a course.
+  2. Navigate to the relevant course page.
+  3. Confirm the presence and visibility of the "Unsubscribe" button.
 
 ### Support
 
