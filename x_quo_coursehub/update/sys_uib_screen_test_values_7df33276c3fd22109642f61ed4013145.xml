@@ -2,7 +2,7 @@
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
     "table": "x_quo_coursehub_course",
-    "sysId": "963ce9bfc37566109642f61ed401316e",
+    "sysId": "5352d7a2838622101c3255b6feaad310",
     "query": "",
     "extraParams": "",
     "views": "",
@@ -33,31 +33,35 @@
         "viewRuleConfigId": ""
     },
     "5865e308432021105571609dc7b8f23b": {
-        "allRecordsSelected": false,
-        "columnFilteringPopoverDisplay": "allowBoth",
-        "columnLimit": 0,
+        "actionConfigId": null,
+        "allRecordsSelected": null,
+        "columnFilteringPopoverDisplay": null,
+        "columnLimit": null,
         "columns": "",
-        "currentPage": 0,
-        "enableCellFiltering": true,
-        "enableColumnSorting": true,
-        "enableDeclarativeActions": true,
-        "enableDotWalk": true,
-        "enableLiveList": false,
-        "enableQuickEdit": true,
-        "enableReferenceLinks": true,
+        "currentPage": null,
+        "enableCellFiltering": null,
+        "enableColumnSorting": null,
+        "enableDeclarativeActions": null,
+        "enableDotWalk": null,
+        "enableLiveList": null,
+        "enableReferenceLinks": null,
         "fetchHighlightedValues": true,
         "filter": "",
         "fixedFilter": "",
         "groupBy": "",
         "listId": null,
         "listMenuConfigurationId": null,
+        "listTitle": null,
         "listType": "default",
-        "onlyEnableSelectionWhenRequiredByActions": true,
+        "onlyEnableSelectionWhenRequiredByActions": null,
         "parentRecordSysId": null,
         "parentTable": null,
         "relatedListName": null,
-        "rowLimit": 10,
-        "table": "x_quo_coursehub_course"
+        "rowLimit": null,
+        "table": "x_quo_coursehub_course",
+        "transformScriptArgs": null,
+        "transformScriptSysId": null,
+        "view": null
     }
 }</macroponent_config>
         <screen display_value="Default">b1f33276c3fd22109642f61ed4013141</screen>
@@ -65,13 +69,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-01 22:49:26</sys_created_on>
         <sys_id>7df33276c3fd22109642f61ed4013145</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_7df33276c3fd22109642f61ed4013145</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-04 20:17:30</sys_updated_on>
+        <sys_updated_on>2025-06-13 17:09:37</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
