@@ -119,6 +119,41 @@
                 "type": "EVENT"
             }
         ]
+    },
+    {
+        "eventMappingId": "ffoYeehhAPwffCEaaljjmQEhbhviIbH",
+        "isConfiguration": null,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_quo_coursehub.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_94f48703c3f1a2109642f61ed401316a",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_quo_coursehub.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_94f48703c3f1a2109642f61ed401316a",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": null,
+                "operation": {
+                    "dataBrokerId": "eaa5861c530210105a20ddeeff7b12fd",
+                    "operationName": "REFRESH",
+                    "parentResourceId": "uxr_app_shell_data_source_1",
+                    "payload": {
+                        "type": "JSON_LITERAL",
+                        "value": {}
+                    }
+                },
+                "targetId": "TxEggXvLZDUbbBeeddEkMHjjwhhzvjjp",
+                "type": "DATABROKER_OP"
+            }
+        ]
     }
 ]</event_mappings>
         <macroponent display_value="Default">94f48703c3f1a2109642f61ed401316a</macroponent>
@@ -165,7 +200,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>98f48343c3f1a2109642f61ed40131b8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
@@ -173,7 +208,7 @@
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_ux_screen_98f48343c3f1a2109642f61ed40131b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-04 21:09:30</sys_updated_on>
+        <sys_updated_on>2025-06-17 20:54:03</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=98f48343c3f1a2109642f61ed40131b8"/>
 </record_update>

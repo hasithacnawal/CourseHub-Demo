@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "listId": ""
+}</macroponent_config>
+        <screen display_value="View Only">fbeadab7c37966109642f61ed4013127</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 23:34:00</sys_created_on>
+        <sys_id>bbead6bbc37966109642f61ed401319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_bbead6bbc37966109642f61ed401319c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 23:34:00</sys_updated_on>
+    </sys_uib_screen_test_values>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>dd47c7413b3d6a94baf6048aa4e45a8c</instance_id>
+        <instance_name>dev350277</instance_name>
+        <name>sys_uib_screen_test_values_bbead6bbc37966109642f61ed401319c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "listId": ""
+}</macroponent_config>
+        <screen display_value="View Only">fbeadab7c37966109642f61ed4013127</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 23:34:00</sys_created_on>
+        <sys_id>bbead6bbc37966109642f61ed401319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_bbead6bbc37966109642f61ed401319c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 23:34:00</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>]]></payload>
+        <payload_hash>-1460638222</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>bb509f6e834622101c3255b6feaad301</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 16:31:05</sys_created_on>
+        <sys_id>287017ae834622101c3255b6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1976a216f280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:31:05</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>e47017ae714622102b2e6322c8052082</update_guid>
+        <update_guid_history>e47017ae714622102b2e6322c8052082:-1460638222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 22:53:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>a86ef0080ff940dc8e04d5adb9a5c010</sys_id>
+        <sys_metadata>bbead6bbc37966109642f61ed401319c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_bbead6bbc37966109642f61ed401319c</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_bbead6bbc37966109642f61ed401319c">287017ae834622101c3255b6feaad382</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 22:53:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

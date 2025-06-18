@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_quo_coursehub.CourseHub Admin</api_name>
+        <description>Admin user experience</description>
+        <name>CourseHub Admin</name>
+        <role_names>x_quo_coursehub.manager</role_names>
+        <roles/>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 17:07:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f0f733783caa6101c3255b6feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CourseHub Admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_applicability_5f0f733783caa6101c3255b6feaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 17:07:55</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>
