@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "table": "x_quo_coursehub_course",
+    "sysId": "5352d7a2838622101c3255b6feaad310",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTab": "",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "actionConfigId": "",
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "headerConfigId": "",
+        "highlightedValueConfigId": "",
+        "inputActionLayoutId": "",
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "cdc86cb6c33522109642f61ed401314d",
+        "inputTable": "x_quo_coursehub_course",
+        "isMappedToAppShell": true,
+        "overrideAppContextConfigIds": false,
+        "requireExplicitEventMapping": false,
+        "ribbonConfigId": "",
+        "screen": null,
+        "selectedTabIndex": 0,
+        "shouldDisplayFormErrorsAsPageAlerts": false,
+        "shouldSuppressGlobalEvents": true,
+        "skipRelatedListEval": false,
+        "userPrefs": null,
+        "viewRuleConfigId": ""
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "actionConfigId": null,
+        "allRecordsSelected": null,
+        "columnFilteringPopoverDisplay": null,
+        "columnLimit": null,
+        "columns": "",
+        "currentPage": null,
+        "enableCellFiltering": null,
+        "enableColumnSorting": null,
+        "enableDeclarativeActions": null,
+        "enableDotWalk": null,
+        "enableLiveList": null,
+        "enableReferenceLinks": null,
+        "fetchHighlightedValues": true,
+        "filter": "",
+        "fixedFilter": "",
+        "groupBy": "",
+        "listId": null,
+        "listMenuConfigurationId": null,
+        "listTitle": null,
+        "listType": "default",
+        "onlyEnableSelectionWhenRequiredByActions": null,
+        "parentRecordSysId": null,
+        "parentTable": null,
+        "relatedListName": null,
+        "rowLimit": null,
+        "table": "x_quo_coursehub_course",
+        "transformScriptArgs": null,
+        "transformScriptSysId": null,
+        "view": null
+    }
+}</macroponent_config>
+        <screen display_value="Admin">b7d6ef37834aa6101c3255b6feaad3e3</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 15:21:29</sys_created_on>
+        <sys_id>3bd6ef37834aa6101c3255b6feaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_3bd6ef37834aa6101c3255b6feaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 15:21:29</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>dd47c7413b3d6a94baf6048aa4e45a8c</instance_id>
+        <instance_name>dev350277</instance_name>
+        <name>sys_uib_screen_test_values_3bd6ef37834aa6101c3255b6feaad3e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "table": "x_quo_coursehub_course",
+    "sysId": "5352d7a2838622101c3255b6feaad310",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTab": "",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "actionConfigId": "",
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "headerConfigId": "",
+        "highlightedValueConfigId": "",
+        "inputActionLayoutId": "",
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "cdc86cb6c33522109642f61ed401314d",
+        "inputTable": "x_quo_coursehub_course",
+        "isMappedToAppShell": true,
+        "overrideAppContextConfigIds": false,
+        "requireExplicitEventMapping": false,
+        "ribbonConfigId": "",
+        "screen": null,
+        "selectedTabIndex": 0,
+        "shouldDisplayFormErrorsAsPageAlerts": false,
+        "shouldSuppressGlobalEvents": true,
+        "skipRelatedListEval": false,
+        "userPrefs": null,
+        "viewRuleConfigId": ""
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "actionConfigId": null,
+        "allRecordsSelected": null,
+        "columnFilteringPopoverDisplay": null,
+        "columnLimit": null,
+        "columns": "",
+        "currentPage": null,
+        "enableCellFiltering": null,
+        "enableColumnSorting": null,
+        "enableDeclarativeActions": null,
+        "enableDotWalk": null,
+        "enableLiveList": null,
+        "enableReferenceLinks": null,
+        "fetchHighlightedValues": true,
+        "filter": "",
+        "fixedFilter": "",
+        "groupBy": "",
+        "listId": null,
+        "listMenuConfigurationId": null,
+        "listTitle": null,
+        "listType": "default",
+        "onlyEnableSelectionWhenRequiredByActions": null,
+        "parentRecordSysId": null,
+        "parentTable": null,
+        "relatedListName": null,
+        "rowLimit": null,
+        "table": "x_quo_coursehub_course",
+        "transformScriptArgs": null,
+        "transformScriptSysId": null,
+        "view": null
+    }
+}</macroponent_config><screen display_value="Admin">b7d6ef37834aa6101c3255b6feaad3e3</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 15:21:29</sys_created_on><sys_id>3bd6ef37834aa6101c3255b6feaad3e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package><sys_policy/><sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope><sys_update_name>sys_uib_screen_test_values_3bd6ef37834aa6101c3255b6feaad3e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 15:21:29</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-392774242</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6e805f2e834622101c3255b6feaad3b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 15:21:29</sys_created_on>
+        <sys_id>bbd6ef37834aa6101c3255b6feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977e7b25d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 15:21:29</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>7fd6ef375e4aa6109df0482baa51fae9</update_guid>
+        <update_guid_history>7fd6ef375e4aa6109df0482baa51fae9:-392774242</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 21:25:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>13db79ffaffa4558acb5dbe073130804</sys_id>
+        <sys_metadata>3bd6ef37834aa6101c3255b6feaad3e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_3bd6ef37834aa6101c3255b6feaad3e8</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_3bd6ef37834aa6101c3255b6feaad3e8">bbd6ef37834aa6101c3255b6feaad3ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 21:25:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

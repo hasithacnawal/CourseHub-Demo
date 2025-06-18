@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">94f48703c3f1a2109642f61ed401316a</macroponent>
+        <name>text_link_1/label</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+    console.log("hi");
+  console.log(api);
+  const matches = api.data.look_up_multiple_records_2.results.filter(
+    sub=>sub.course.sysid === api.item.value._row_data.uniqueValue
+  );
+	return (matches.length + " feedbacks");
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 21:03:49</sys_created_on>
+        <sys_id>d9f84872838a22101c3255b6feaad384</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>text_link_1/label</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_client_script_d9f84872838a22101c3255b6feaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 21:14:28</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>dd47c7413b3d6a94baf6048aa4e45a8c</instance_id>
+        <instance_name>dev350277</instance_name>
+        <name>sys_ux_client_script_d9f84872838a22101c3255b6feaad384</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;94f48703c3f1a2109642f61ed401316a&lt;/macroponent&gt;&lt;name&gt;text_link_1/label&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+    console.log("hi");
+  console.log(api);
+  const matches = api.data.look_up_multiple_records_2.results.filter(
+    sub=&gt;sub.course.sysid === api.item.value._row_data.uniqueValue
+  );
+	return (matches.length + " feedbacks");
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-13 21:03:49&lt;/sys_created_on&gt;&lt;sys_id&gt;d9f84872838a22101c3255b6feaad384&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;text_link_1/label&lt;/sys_name&gt;&lt;sys_package display_value="CourseHub" source="x_quo_coursehub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CourseHub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_d9f84872838a22101c3255b6feaad384&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-13 21:14:28&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-453209558</payload_hash>
+        <record_name>text_link_1/label</record_name>
+        <reverted_from/>
+        <source>6e805f2e834622101c3255b6feaad3b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 21:14:28</sys_created_on>
+        <sys_id>7341907283ca22101c3255b6feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1976b24e2db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 21:14:28</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>3b419072a4ca2210a78fb18f1e09e872</update_guid>
+        <update_guid_history>3b419072a4ca2210a78fb18f1e09e872:-453209558,3bdecc7ee18a2210dbc0bf9505f9f37f:1740254901</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 21:18:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>a7c298f0206f408c9c07859cf0ee43c1</sys_id>
+        <sys_metadata>d9f84872838a22101c3255b6feaad384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_link_1/label</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_d9f84872838a22101c3255b6feaad384</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_d9f84872838a22101c3255b6feaad384">7341907283ca22101c3255b6feaad373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 21:18:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
